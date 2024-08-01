@@ -737,5 +737,4 @@ mysim <- function(outfile, from=1, to=100, nobs=500, nindic=10, qindic=1, confou
 }
 
 
-mysim(paste0("paper2may17_125","_nindic10","_H1"), from = 1, to = 1000, nobs = 125, nindic = 10, qindic=1, confounding="h", samplesize=10000)
-
+mysim(paste0("n125","Hconfounding","_nindic10","_Hquality"), from = 1, to = 1000, nobs = 125, nindic = 10, qindic=1, confounding="h", samplesize=10000)
